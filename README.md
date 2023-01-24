@@ -10,19 +10,24 @@ This repository contains a Docker Compose configuration that sets up a Jenkins i
 ## Usage
 
 - Clone the repository
-    ``` git clone https://github.com/snrow/Mission-1.git
-    ```
+```bash
+    git clone https://github.com/snrow/Mission-1.git
+```
 
 - Start the Jenkins container
-    ```bash init.sh```
-    OR
-    ```docker-compose up -d --build```
+```bash
+    bash init.sh
+```
 
 - Stop the Jenkins container
-    ```docker compose down```
+```bash 
+    docker compose down
+```
 
 - Destroy the Jenkins container with his volumes
-    ```bash armageddon.sh```
+```bash
+    bash armageddon.sh
+```
 
 
 
