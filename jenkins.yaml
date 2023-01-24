@@ -1,0 +1,14 @@
+jenkins:
+  systemMessage: "\n\n Welcome \n\nThe user name is admin and password is 123\n\n"
+
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+       - id: admin
+         password: 123
+
+  crumbIssuer: "standard"
+
+  remotingSecurity:
+    enabled: true    
